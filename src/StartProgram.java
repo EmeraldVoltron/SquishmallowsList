@@ -74,7 +74,7 @@ public class StartProgram {
 
 				Squishmallow toEdit = lsh.searchForSquishById(idToEdit);
 				System.out.println("Retrieved " + toEdit.getName() + " Size: " + toEdit.getSize() + " inch" +
-									"type: " + toEdit.getType());
+									" type: " + toEdit.getType());
 				System.out.println("1 : Update Name");
 				System.out.println("2 : Update Type");
 				System.out.println("3 : Update Size");
